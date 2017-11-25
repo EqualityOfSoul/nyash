@@ -1,4 +1,5 @@
-# Timebot #
+Timebot
+=======
 
 ## Requirements ##
 
@@ -15,4 +16,4 @@
 If it's working, you should see "Ready!" in the Glitch logs.
 
 
-[invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383929303366238209&scope=bot&permissions=0
+[invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383941133564379136&scope=bot&permissions=0
