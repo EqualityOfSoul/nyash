@@ -1,26 +1,18 @@
-# Discord 1337 Bot 🤖
+# Timebot #
 
-A simple Discord bot that replies "damn it" whenever anyone says "1337"
+## Requirements ##
 
-![](https://cdn.glitch.com/f1b80a31-0733-40fb-a0dd-44c8c80c155d%2Fscreenshot.png?1506425519756)
+* A [Discord account](https://discordapp.com/register)
+* Permission to add accounts to a server, or your own server
 
-## Prerequisites
+## Setup ##
 
-You'll need:
- - A [Discord account](https://discordapp.com/register)
- - Permission to add accounts to a server, or your own server
+1. Invite bot using this [invitation link][].
+2. Make sure the bot is online.
+    * If not, something that wasn't your fault bugged out.
+3. Type `!timebot`.
 
-## Steps to set up:
+If it's working, you should see "Ready!" in the Glitch logs.
 
-1. Create an App here: [https://discordapp.com/developers/applications/me](https://discordapp.com/developers/applications/me)
-2. Create an App Bot User for your App by clicking "Create a Bot User"
-3. Add the App Bot User to your Discord server using this link: `https://discordapp.com/oauth2/authorize?&client_id=<CLIENT ID>&scope=bot&permissions=0` replacing `<CLIENT_ID>` with the Client ID found on the page of your App
-4. Set the `DISCORD_BOT_ID` value in `.env` using the Bot User token ("click to reveal" in the App page under the bot username)
 
-## The code
-
-Check out `server.js` to see how it works ✨
-
-We're using the [Eris](https://npm.im/eris) library to interact with the Discord API.
-
-If it's working you should see "Ready!" in the logs.
+[invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383929303366238209&scope=bot&permissions=0

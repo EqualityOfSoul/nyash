@@ -7,8 +7,8 @@ bot.on('ready', () => {                                // When the bot is ready
 });
  
 bot.on('messageCreate', (msg) => {                     // When a message is created
-    if(msg.content.includes('1337')) {                 // If the message content includes "1337"
-        bot.createMessage(msg.channel.id, 'damn it');  // Send a message in the same channel with "damn it"
+    if(msg.content.includes('!timebot')) {             // If the message content includes "1337"
+        bot.createMessage(msg.channel.id, 'Now is the winter of our discontent');  // Send a message in the same channel with "damn it"
     }
 });
  
