@@ -22,6 +22,15 @@ If it's working, you should see "Ready!" in the Glitch logs.
 * `server.js`
     - Change the trigger command(s)
     - Change the bot reply
+* `watch.json`
+    - Include or exclude more files, file types or folders
+
+## Resources ##
+
+* <https://glitch.com/~discord-bot-example>
+* <https://github.com/abalabahaha/eris>
+* <https://anidiotsguide.gitbooks.io/discord-js-bot-guide/other-guides/hosting-on-glitchcom.html>
+* <https://watch-json.glitch.me/>
 
 
 [invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383941133564379136&scope=bot&permissions=0
