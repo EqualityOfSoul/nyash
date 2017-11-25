@@ -28,7 +28,7 @@ If it's working, you should see "Ready!" in the Glitch logs.
 ## Resources ##
 
 * <https://glitch.com/~discord-bot-example>
-* <https://github.com/abalabahaha/eris>
+* <https://abal.moe/Eris/>
 * <https://anidiotsguide.gitbooks.io/discord-js-bot-guide/other-guides/hosting-on-glitchcom.html>
 * <https://watch-json.glitch.me/>
 
