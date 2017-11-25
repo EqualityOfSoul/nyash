@@ -18,10 +18,15 @@ bot.on("ready", () => {
 // When a message is created
 bot.on("messageCreate", (msg) => { 
     if(msg.content.includes("!timebot")) { // that reads "!timebot"
+        var now = moment();
+        var ct = now.tz("Europe/Copenhagen");
+        var et = now.tz("America/New_York");
+        var pt = now.tz("America/Los_Angeles");
+
         bot.createMessage(msg.channel.id,
-            clock.timeToEmoji(moment().tz("Europe/Copenhagen")) + " " + moment().tz("Europe/Copenhagen").format("HH:mm z") + "\n" +
-            clock.timeToEmoji(moment().tz("America/New_York")) + " " + moment().tz("America/New_York").format("HH:mm z") + "\n" +
-            clock.timeToEmoji(moment().tz("America/Los_Angeles")) + " " + moment().tz("America/Los_Angeles").format("HH:mm z"));
+            clock.timeToEmoji(ct) + " \`" + ct.format("HH:mm z") + "\`\n" +
+            clock.timeToEmoji(et) + " \`" + et.format("HH:mm z") + "\`\n" +
+            clock.timeToEmoji(pt) + " \`" + pt.format("HH:mm z") + "\`" );
     }
 });
 
