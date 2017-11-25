@@ -1,19 +1,26 @@
 const Eris = require("eris");
- 
-const bot = new Eris(process.env.DISCORD_BOT_TOKEN); // Replace DISCORD_BOT_TOKEN in .env with your bot accounts token
- 
-bot.on("ready", () => {                              // When the bot is ready
-    console.log("Ready!");                           // Log "Ready!"
+
+var owner = "Cygnatus",
+    description = "Return the current time in three timezones.";
+
+const bot = new Eris(process.env.DISCORD_BOT_TOKEN, {}, {
+  "description": description,
+  "ow"
 });
- 
-bot.on("messageCreate", (msg) => {                   // When a message is created
-    if(msg.content.includes("!timebot")) {           // If the message content includes "!timebot"
-        bot.createMessage(msg.channel.id,              
+
+bot.on("ready", () => {                              
+    console.log("Ready!");                           
+});
+
+// When a message is created
+bot.on("messageCreate", (msg) => { 
+    if(msg.content.includes("!timebot")) { // that reads "!timebot"
+        bot.createMessage(msg.channel.id,
             "Now is the winter of our discontent\n" +
             "Made glorious summer by this sun of York\n" +
             "And all the clouds that lour'd upon our house\n" +
             "In the deep bosom of the ocean buried.");
     }
 });
- 
+
 bot.connect();                                       // Connect to server (Discord)
