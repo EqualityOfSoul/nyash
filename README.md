@@ -24,6 +24,7 @@ If it's working, you should see "Ready!" in the Glitch logs.
     - Change the bot reply
 * `watch.json`
     - Include or exclude more files, file types or folders
+    - Change update rate (`throttle`)
 
 ## Resources ##
 
