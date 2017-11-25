@@ -15,6 +15,10 @@ Timebot
 
 If it's working, you should see "Ready!" in the Glitch logs.
 
+## DIY ##
+
+1. Remix [the project][]
+
 ## Customization ##
 
 * `.env`
@@ -36,3 +40,4 @@ If it's working, you should see "Ready!" in the Glitch logs.
 
 
 [invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383941133564379136&scope=bot&permissions=0
+[the project]: https://glitch.com/~plausible-caption
