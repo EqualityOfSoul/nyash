@@ -15,5 +15,13 @@ Timebot
 
 If it's working, you should see "Ready!" in the Glitch logs.
 
+## Customization ##
+
+* `.env`
+    - Use your own client token
+* `server.js`
+    - Change the trigger command(s)
+    - Change the bot reply
+
 
 [invitation link]: https://discordapp.com/oauth2/authorize?&client_id=383941133564379136&scope=bot&permissions=0
