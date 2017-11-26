@@ -40,6 +40,8 @@ bot.registerCommand("timebot", (msg, args) => {
     "fullDescription": "Timebot shows the current time in three Western timezones: CET, ET, and PT.",
     "usage": "!timebot"
 });
+
 bot.registerCommandAlias("timezones", "timebot");
+bot.registerCommandAlias("timebot help", "help");
 
 bot.connect(); // Connect to server (Discord)
