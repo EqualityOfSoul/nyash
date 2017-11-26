@@ -12,7 +12,7 @@ bot.on("ready", () => {
     console.log("Ready! The time is " +
         moment().tz("Europe/Copenhagen").format("HH:mm z") + ", " +
         moment().tz("America/New_York").format("HH:mm z") + ", and " +
-        moment().tz("America/Los_Angeles").format("HH:mm z"));
+        moment().tz("America/Los_Angeles").format("HH:mm z") + ".");
 });
 
 bot.registerCommand("timebot", (msg, args) => {
