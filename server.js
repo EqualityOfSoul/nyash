@@ -2,7 +2,7 @@ const Eris = require("eris");
 const moment = require("moment-timezone");
 const clock = require("node-emoji-clock");
 
-const bot = new Eris(process.env.DISCORD_BOT_TOKEN, {}, {
+const bot = new Eris.CommandClient(process.env.DISCORD_BOT_TOKEN, {}, {
     "description": "Show the current time in three timezones.",
     "owner": "Cygnatus",
     "prefix": "!"
