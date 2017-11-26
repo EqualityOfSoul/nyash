@@ -42,6 +42,5 @@ bot.registerCommand("timebot", (msg, args) => {
 });
 
 bot.registerCommandAlias("timezones", "timebot");
-bot.registerCommandAlias("timebot help", "help");
 
 bot.connect(); // Connect to server (Discord)
