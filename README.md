@@ -53,7 +53,11 @@ If it's working, you should see "Ready!" in the Glitch logs.
 
 ### My bot is offline ###
 
-It's probably asleep. Try waking it either by typing a command in your server or by updating some code in your Glitch project.
+It's probably asleep. Try waking it either by
+
+* typing a command in your server
+* updating some code in your Glitch project
+    - Remember to check the logs
 
 Check out "Hosting a Bot on Glitch.com" linked above in **Resources** for more on keeping your sleepy bot awake.
 
