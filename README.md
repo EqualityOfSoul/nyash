@@ -55,9 +55,12 @@ If it's working, you should see "Ready!" in the Glitch logs.
 
 It's probably asleep. Try waking it either by
 
-* typing a command in your server
-* updating some code in your Glitch project
+* Typing a command in your server
+* Updating some code in your Glitch project
     - Remember to check the logs
+* Visiting its glitch.me page
+
+Also check whether the Discord invitation link still works.
 
 Check out "Hosting a Bot on Glitch.com" linked above in **Resources** for more on keeping your sleepy bot awake.
 
